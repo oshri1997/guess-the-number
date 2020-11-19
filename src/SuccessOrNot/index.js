@@ -25,7 +25,7 @@ const successOrNot = (random, lastNumber, tryagain) => {
   } else if (Math.abs(random - lastNumber) <= 10) {
     return (
       <Typography color="error" variant="h5">
-        you are closer!
+        You're getting closer
       </Typography>
     );
   } else if (Math.abs(random - lastNumber) <= 15) {
