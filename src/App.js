@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import Form from "./components/Form";
 import { Grid, Typography, Paper, Divider } from "@material-ui/core";
 import Guesses from "./components/Guesses";
